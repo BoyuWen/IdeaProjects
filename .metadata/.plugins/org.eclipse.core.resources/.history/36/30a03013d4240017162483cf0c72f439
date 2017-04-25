@@ -1,0 +1,17 @@
+package test;
+
+public class Fridge {
+	private int length;
+	private int wide;
+	private int high;
+	public int valume(int a,int b,int c){
+		return a*b*c;
+	}
+	public void loading(Elephant a){
+		if(a.getLength()<=length && a.getWide()<=wide && a.getHigh()<=high)
+			System.out.println("已将大象装入冰箱");
+		else
+			Exception e = new Exception();
+			throw e;
+	}
+}

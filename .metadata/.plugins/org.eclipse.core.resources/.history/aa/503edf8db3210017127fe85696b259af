@@ -1,0 +1,15 @@
+package test;
+
+public class Fridge {
+	private int length;
+	private int wid;
+	private int high;
+	public int valume(int a,int b,int c){
+		return a*b*c;
+	}
+	public void loading(Elephant a){
+		if(a.length<=length && a.wid<=wid && a.high<=high){
+			
+		}
+	}
+}

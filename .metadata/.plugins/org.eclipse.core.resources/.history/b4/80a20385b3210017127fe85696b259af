@@ -1,0 +1,7 @@
+package test;
+
+public class Elephant {
+	private int length;
+	private int wide;
+	private int high;
+}

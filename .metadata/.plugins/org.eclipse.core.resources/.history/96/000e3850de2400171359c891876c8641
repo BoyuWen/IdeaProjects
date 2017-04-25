@@ -1,0 +1,8 @@
+package stuff;
+
+public class Stuff {
+	private String number;
+	private String name;
+	private int age;
+	private int salary;
+}

@@ -1,0 +1,5 @@
+package shot;
+
+public class EmptyException {
+
+}

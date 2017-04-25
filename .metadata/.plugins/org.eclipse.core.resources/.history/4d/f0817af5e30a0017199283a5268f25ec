@@ -1,0 +1,13 @@
+package main;
+import animal.*;
+
+public class main {
+	public static void main(String[] args){
+		Person me = new Person();
+		Cat cat = new Cat();
+		Dog dog = new Dog();
+		Elephant elephant = new Elephant();
+		Food fish = new Food("гу");
+		me.feed(cat,fish);
+	}
+}

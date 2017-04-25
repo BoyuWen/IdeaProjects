@@ -1,0 +1,26 @@
+package main;
+import shot.*;
+public class Main {
+	public static void main(String[] args){
+		Gun gun = new Gun();
+		for(int i=0;i<=gun.getCount()-1;i++) {
+			Bullet a = new Bullet(i,"M54");
+			try{
+				gun.load(a);
+			}catch(FullException e){
+				e.printStackTrace();
+			}
+		}
+		gun.getAmount();
+		gun.show();
+		for(int i=0;i<=gun.getAmount();i++) {
+			try{
+				gun.shot();
+			}catch(EmptyException e){
+				e.printStackTrace();
+			}
+		}
+		gun.getAmount();
+		gun.show();
+	}
+}

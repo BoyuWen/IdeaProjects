@@ -1,0 +1,37 @@
+package stuff;
+
+public class Stuff {
+	private String number;
+	private String name;
+	private int age;
+	private int salary;
+	private String ID;
+	private int stutotal;
+	private int saltotal;
+	public Stuff(String a,String b,int c) throws Exception{
+		number = a;
+		if(c>=18 && c<=60){
+			age = c;
+		}else if(c<18){
+			throw new LowAgeException();
+		}else{
+			throw new HighAgeException();
+		}
+		if(b=="" || b==null){
+			throw new BlankException();
+		}else{
+			name = b;
+		}	
+	}
+	public Stuff(int d,String e) throws Exception{
+		if(d < 600){
+			throw new LowSalaryException();
+		}else{
+			salary = d;
+		}
+		ID = e;
+	}
+	public void addSalary(double addSalary) throws Exception{
+		
+	}
+}

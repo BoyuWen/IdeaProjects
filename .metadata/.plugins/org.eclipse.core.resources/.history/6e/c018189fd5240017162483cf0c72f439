@@ -1,0 +1,7 @@
+package test;
+
+public class StuffElephant {
+	public static void main(String[] args){
+		
+	}
+}
