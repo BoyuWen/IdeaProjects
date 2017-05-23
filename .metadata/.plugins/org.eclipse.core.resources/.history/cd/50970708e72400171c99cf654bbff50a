@@ -1,9 +1,0 @@
-package main;
-
-import stuff.Stuff;
-
-public class Main {
-	public static void main(String[] args){
-		Stuff a = new Stuff(500,"2015");
-	}
-}

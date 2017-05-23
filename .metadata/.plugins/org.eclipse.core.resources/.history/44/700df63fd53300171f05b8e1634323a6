@@ -1,0 +1,8 @@
+package simpleFrame;
+
+import java.awt.*;
+import javax.swing.*;
+
+public class SimpleFrameTest {
+	
+}

@@ -1,7 +1,0 @@
-package stuff;
-
-public class LowAgeException extends Exception{
-	public LowAgeException(String msg){
-		super(msg);
-	}
-}

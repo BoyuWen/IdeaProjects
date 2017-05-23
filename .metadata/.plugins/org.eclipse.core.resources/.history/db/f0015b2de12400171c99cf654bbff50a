@@ -1,7 +1,0 @@
-package stuff;
-
-public class HighSalaryException extends Exception{
-	public LowSalaryException(String msg){
-		super(msg);
-	}
-}
